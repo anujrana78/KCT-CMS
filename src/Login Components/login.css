@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-container{
+    display: flex;
+    background-color: white;
+}
+
+.login-image-container{
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.login-image-container img{
+    width:120%;
+    margin-left: -100px;
+}
+
+.login-form-container{
+    width: 35%;
+    padding: 5%;
+    margin-top: 50px;
+}
+.login-form-container h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.kct{
+    color: #FF9F47;
+    font-size: 60px;
+}
+
+.input-username, .input-password{
+    font-family: 'Inria Sans', sans-serif;
+    border: 1px solid black;
+    margin-top: 10px;
+    
+}
+
+.btn-container{
+    display: flex;
+    gap: 1%;
+    margin-top:10px;
+    font-family:'Inria Sans' , sans-serif; 
+    letter-spacing: 20px;
+    
+}
+
+.btn-login{
+    background-color: #FF9F47;
+    border: 1px solid #FF9F47;
+    width: 70%;
+    font-size: 15px;
+    letter-spacing: 2px
+}
+.btn-login:hover{
+    background-color: #ffffff;
+    border: 1px solid #FF9F47;
+    width: 70%;
+    font-size: 15px;
+    color: #FF9F47;
+    letter-spacing: 2px
+}
+
+.btn-signup{
+    background-color: #105BA1;
+    width: 30%;
+    border: 1px solid #105BA1;
+    font-size: 15px;
+    letter-spacing: 2px
+}
+
+.btn-signup:hover{
+    background-color: #ffffff;
+    color: #105BA1;
+    width: 30%;
+    border: 1px solid #105BA1;
+    font-size: 15px;
+    letter-spacing: 2px
+}
+
+.forgot-password{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin-top:10px;
+}
+
+p a{
+    color:black;
+}

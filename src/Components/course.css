@@ -1,0 +1,37 @@
+.course-box-container{
+padding-top: 20px;
+}
+.course-container{
+    display: flex;
+    gap: 2%;
+    background-color: white;
+    border-radius: 20px;
+    /* padding: 5px; */
+    align-items: center;
+
+}
+
+.course-code {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+}
+.course-code h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.course-mesc{
+    display: flex;
+    gap: 5%;
+}
+
+.course-heading{
+    margin-left: 50px;
+    padding: 40px 0 15px 10px;
+}

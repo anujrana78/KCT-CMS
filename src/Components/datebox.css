@@ -1,0 +1,17 @@
+.date-box{
+    height: 100%;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.date-box h4{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.date-box h2{
+    font-size: 4rem;
+}

@@ -1,0 +1,28 @@
+
+.id-card{
+    background-color: rgb(245, 131, 0);
+    border-radius: 20px;
+    width: auto;
+    height: 100%;
+    padding-top: 2%;
+    text-align: center;
+    color: white;
+}
+
+.id-card img{
+    height: 50px;
+    border-radius: 50px;
+    margin: 15px;
+    margin-bottom: 20px;
+}
+
+h6{
+    font-family: 'Saira', sans-serif;
+    font-size: 12px;
+
+}
+
+/* font-family: 'Inria Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Saira', sans-serif; */
